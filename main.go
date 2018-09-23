@@ -23,7 +23,7 @@ func main() {
 			return
 		}
 		if l.tipe == PUNCTUATOR {
-			output += "PUCTUATOR  : "
+			output += "PUNCTUATOR : "
 		} else if l.tipe == OPERATOR {
 			output += "OPERATOR   : "
 		} else if l.tipe == LITERAL {
